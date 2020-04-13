@@ -1,0 +1,216 @@
+2020-04-04 20:49:02 [127.0.0.1][-][kgf1b43lis0s0krm1pbt07987ocll5a3][error][Error] Error: Class 'yii\authclient\widgets\AuthChoice' not found in C:\Users\Administrator\OSPanel\domains\localhost\modules\user\views\auth\login.php:46
+Stack trace:
+#0 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Admini...', Array)
+#2 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\Admini...', Array, Object(app\modules\user\controllers\AuthController))
+#3 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('login', Array, Object(app\modules\user\controllers\AuthController))
+#4 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\controllers\AuthController.php(61): yii\base\Controller->render('login', Array)
+#5 [internal function]: app\modules\user\controllers\AuthController->actionLogin()
+#6 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#9 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/auth/login', Array)
+#10 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Administrator\OSPanel\domains\localhost\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2020-04-04 20:49:01 [127.0.0.1][-][kgf1b43lis0s0krm1pbt07987ocll5a3][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kgf1b43lis0s0krm1pbt07987ocll5a3'
+    '_csrf' => '49367894cffe22373b8783532e06215828e66051124a4f77fad259a801dbcb9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HxTTgSTejMFRRg3P__KYVlqx6-ueht3s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/web/admin-panel'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/web/register'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,be;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=kgf1b43lis0s0krm1pbt07987ocll5a3; _csrf=49367894cffe22373b8783532e06215828e66051124a4f77fad259a801dbcb9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HxTTgSTejMFRRg3P__KYVlqx6-ueht3s%22%3B%7D'
+    'PATH' => 'c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64\\ext;c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64\\pear;c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64\\pear\\bin;c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64;c:\\users\\administrator\\ospanel\\modules\\wget\\bin;c:\\users\\administrator\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;c:\\users\\administrator\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;c:\\users\\administrator\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/OSPanel/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/OSPanel/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/OSPanel/domains/localhost/web/index.php'
+    'REMOTE_PORT' => '51041'
+    'REDIRECT_URL' => '/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1586022541.759
+    'REQUEST_TIME' => 1586022541
+    'argv' => []
+    'argc' => 0
+]
+2020-04-04 20:49:50 [127.0.0.1][-][kgf1b43lis0s0krm1pbt07987ocll5a3][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii_auth' in C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php:703
+Stack trace:
+#0 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(703): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(624): yii\db\Connection->createPdoInstance()
+#2 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(1020): yii\db\Connection->open()
+#3 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(1007): yii\db\Connection->getMasterPdo()
+#4 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(404): yii\db\Connection->getSlavePdo()
+#5 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(428): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(58): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#11 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(854): yii\db\Schema->getQueryBuilder()
+#12 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Query.php(274): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\ActiveQuery.php(304): yii\db\Query->one(NULL)
+#15 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\models\User.php(98): yii\db\ActiveQuery->one()
+#16 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\models\LoginForm.php(64): app\modules\user\models\User::findByUsername('4500zenja')
+#17 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\models\LoginForm.php(42): app\modules\user\models\LoginForm->getUser()
+#18 [internal function]: app\modules\user\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#19 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#20 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\validators\Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\modules\user\models\LoginForm), 'password')
+#21 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(app\modules\user\models\LoginForm), Array)
+#22 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\controllers\AuthController.php(44): yii\base\Model->validate()
+#23 [internal function]: app\modules\user\controllers\AuthController->actionLogin()
+#24 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#25 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#26 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#27 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/auth/login', Array)
+#28 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 C:\Users\Administrator\OSPanel\domains\localhost\web\index.php(12): yii\base\Application->run()
+#30 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii_auth' in C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php:635
+Stack trace:
+#0 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(1020): yii\db\Connection->open()
+#1 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(1007): yii\db\Connection->getMasterPdo()
+#2 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(404): yii\db\Connection->getSlavePdo()
+#3 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(428): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(58): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#9 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Connection.php(854): yii\db\Schema->getQueryBuilder()
+#10 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\Query.php(274): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\db\ActiveQuery.php(304): yii\db\Query->one(NULL)
+#13 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\models\User.php(98): yii\db\ActiveQuery->one()
+#14 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\models\LoginForm.php(64): app\modules\user\models\User::findByUsername('4500zenja')
+#15 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\models\LoginForm.php(42): app\modules\user\models\LoginForm->getUser()
+#16 [internal function]: app\modules\user\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#17 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#18 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\validators\Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(app\modules\user\models\LoginForm), 'password')
+#19 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(app\modules\user\models\LoginForm), Array)
+#20 C:\Users\Administrator\OSPanel\domains\localhost\modules\user\controllers\AuthController.php(44): yii\base\Model->validate()
+#21 [internal function]: app\modules\user\controllers\AuthController->actionLogin()
+#22 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#25 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/auth/login', Array)
+#26 C:\Users\Administrator\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\Users\Administrator\OSPanel\domains\localhost\web\index.php(12): yii\base\Application->run()
+#28 {main}
+Additional Information:
+
+2020-04-04 20:49:46 [127.0.0.1][-][kgf1b43lis0s0krm1pbt07987ocll5a3][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'A-OHeQn8VFDWvwEZuvO0wPoZ2iN3bgTjF7AfKfp4j1FLm9Mtbq8ANbzyR0volIeQpUaReiECdZshnWpMkgy8Ig=='
+    'LoginForm' => [
+        'username' => '4500zenja'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kgf1b43lis0s0krm1pbt07987ocll5a3'
+    '_csrf' => '49367894cffe22373b8783532e06215828e66051124a4f77fad259a801dbcb9ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HxTTgSTejMFRRg3P__KYVlqx6-ueht3s\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/web/admin-panel'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '233'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,be;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=kgf1b43lis0s0krm1pbt07987ocll5a3; _csrf=49367894cffe22373b8783532e06215828e66051124a4f77fad259a801dbcb9ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HxTTgSTejMFRRg3P__KYVlqx6-ueht3s%22%3B%7D'
+    'PATH' => 'c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64\\ext;c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64\\pear;c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64\\pear\\bin;c:\\users\\administrator\\ospanel\\modules\\php\\PHP_7.1-x64;c:\\users\\administrator\\ospanel\\modules\\wget\\bin;c:\\users\\administrator\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;c:\\users\\administrator\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;c:\\users\\administrator\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/OSPanel/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/OSPanel/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/OSPanel/domains/localhost/web/index.php'
+    'REMOTE_PORT' => '51066'
+    'REDIRECT_URL' => '/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1586022586.576
+    'REQUEST_TIME' => 1586022586
+    'argv' => []
+    'argc' => 0
+]
